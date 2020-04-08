@@ -7,4 +7,4 @@
 ## 8-4-20
 1. in 28 minutes JSP by 5
 2. 5 to 12 asrticle on black box testing and white box testing
-3. After 12 react 
+3. After 12 Algorithmic Toolbox
