@@ -13,3 +13,8 @@ OPEN Website
 ## 10-4-20
 1. JSP JDBC(File Work)
 2. ch 19 & 20 Article
+3. Maven
+## 11-4-20
+1. Algorithmic Toolbox
+2. React
+## 12-4-20
