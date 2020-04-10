@@ -8,3 +8,8 @@
 1. in 28 minutes JSP by 5
 2. 5 to 12 asrticle on black box testing and white box testing
 3. After 12 Algorithmic Toolbox
+## 9-4-20
+OPEN Website
+## 10-4-20
+1. JSP JDBC(File Work)
+2. ch 19 & 20 Article
