@@ -1,0 +1,48 @@
+
+Week 1
+Session 1- Introduction to networks, Theoretical Model for Communication
+Session 2- Analog and digital signal, Bandwidth, Noise, Channel Capacity, Data Rate,
+Session 3- Transmission Impairments, Guided Transmission Media, Wireless Transmission Media, Line of Sight Transmission,
+Week 2
+Session 4: Concept of circuit, Message, Packet Switching with their timing diagram, Comparison of Switching Techniques
+Session 5: Evolution of computer network, layered network architecture, OSI Model,
+Session 6: ATM, Three Tier Architecture, System Network Architecture, Topology, Line Discipline,
+Week 3
+Session 7: ISDN, Frame Relay
+Session 8: Fast Ethernet
+Session 9: Gigabit Ethernet, FDDI, TCP/IP Model
+Week 4
+Session 10: Error Detection & Correction Techniques, Hamming Code,
+Session 11: CRC, Parity Check
+Session 12: ARQ Techniques (Stop and wait Protocol), Go Back N Protocol, Selective Repeat Request, HDLC
+Week 5
+Session 13: TDM, FDM, CDMA,
+Session 14: ALOHA: Pure, Slotted ALOHA, CSMA, CSMA/CD
+Session 15: IEEE 802 standards for LAN & WAN: 802.3, 802.4, 802.5, 802.6, 802.2 and Their Comparison
+Week 6
+Session 16: Network Layer Service, Datagram and VC services,
+Session 17: IP Datagram format and Types of Services,
+Session 18: Datagram Encapsulation and Fragmentation, IP Addressing: Subnetting and Supernetting
+Week 7
+Session 19: Routing: Link State Routing, Distance Vector Routing,
+Session 20: Hierarchical Routing, Multicast Routing,
+Session 21: RIP,OSPF, BGP
+Week 8
+Session 22: IPv4: Frame Formats,
+Session 23: Introduction to ICMP,
+Session 24- DHCP, and NAT, IPv6: Frame Formats,
+Week 9
+Session 25: Network Management: SNMP and RMON models
+Session 26: Transport Layer Services, Relationship with network and application layer
+Session 27: Multiplexing and De multiplexing, UDP
+Week 10
+Session 28: TCP: Header, Segment Structure, Services,
+Session 29: Connection Establishment and Termination, Flow Control and Window Size Advertising,
+Session 30: TCP timeout and re-transmission, Congestion control,
+Week 11
+Session 31:TCP Fairness, Dealy Modelling,
+Session 32:Application Layer Protocols: HTTP
+Session 33:FTP
+Week 12
+Session 34:SNMP
+Session 35:DNS
