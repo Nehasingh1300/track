@@ -12,6 +12,13 @@ Blog
 Github Tools : Maven
 ```
 
+```
+Twitter Bot
+```
+
+```
+Self App for Time & Work Management
+```
 ## 7-4-20
 1. Encryption program for RSA or AES<br>
 2. Servlet & JDBC<br>
