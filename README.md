@@ -13,7 +13,7 @@ Github Tools : Maven
 ```
 
 ```
-Twitter Bot
+Twitter Bot : Github Pages
 ```
 
 ```
@@ -41,8 +41,8 @@ OPEN Website
 2. Quality Assurance 
 3. JDBC
 ## 13-4-20
-1. JDBC API JDBC API Options, JDBC Statements SQL Queries JDBC Statements SQL Queries Options, JDBC Drivers and API JDBC Drivers and API Options
-2. Twitter Bot
+1. JDBC API JDBC API Options, JDBC Statements SQL Queries JDBC Statements SQL Queries Options, JDBC Drivers and API JDBC Drivers and API Options  **Not Done**
+2. Twitter Bot **Not Done**
 
 ## 14-4-20
 1. ISDN, Frame Relay,Fast Ethernet, Gigabit Ethernet, FDDI, TCP/IP Model
