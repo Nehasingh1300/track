@@ -41,7 +41,7 @@ OPEN Website
 2. Quality Assurance 
 3. JDBC
 ## 13-4-20
-1. JDBC API JDBC API Options, JDBC Statements SQL Queries JDBC Statements SQL Queries Options, JDBC Drivers and API JDBC Drivers and API Options  **Not Done**
+1. JDBC API, JDBC Statements SQL Queries, JDBC Drivers and API **Not Done**
 2. Twitter Bot **Not Done**
 
 ## 14-4-20
