@@ -45,8 +45,8 @@ OPEN Website
 2. Twitter Bot **Not Done**
 
 ## 14-4-20
-1. ISDN, Frame Relay,Fast Ethernet, Gigabit Ethernet, FDDI, TCP/IP Model
-2. Servlet Servlet Options, 
+1. ISDN, Frame Relay,Fast Ethernet, Gigabit Ethernet, FDDI, TCP/IP Model **Not Done**
+2. Servlet Servlet Options 
 
 ## 15-4-20
 1. Error Detection & Correction Techniques, Hamming Code, CRC, Parity Check, ARQ Techniques (Stop and wait Protocol), Go Back N Protocol, Selective Repeat Request, HDLC
