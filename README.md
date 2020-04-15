@@ -5,7 +5,7 @@ Quality Assurance
 ```
 
 ```
-Blog
+Blog <img src="./greenTick.PNG" alt="Smiley face" height="30" width="30">
 ```
 
 ```
@@ -41,16 +41,16 @@ OPEN Website
 2. Quality Assurance 
 3. JDBC
 ## 13-4-20
-1. JDBC API, JDBC Statements SQL Queries, JDBC Drivers and API **Not Done**
-2. Twitter Bot **Not Done**
+1. JDBC API, JDBC Statements SQL Queries, JDBC Drivers and API<img src="./redCross.PNG" alt="Smiley face" height="30" width="30">
+2. Twitter Bot <img src="./redCross.PNG" alt="Smiley face" height="30" width="30">
 
 ## 14-4-20
-1. ISDN, Frame Relay,Fast Ethernet, Gigabit Ethernet, FDDI, TCP/IP Model **Not Done**
-2. Servlet Servlet Options 
+1. ISDN, Frame Relay,Fast Ethernet, Gigabit Ethernet, FDDI, TCP/IP Model <img src="./redCross.PNG" alt="Smiley face" height="30" width="30">
+2. Servlet Servlet Options <img src="./greenTick.PNG" alt="Smiley face" height="30" width="30">
 
 ## 15-4-20
-1. Error Detection & Correction Techniques, Hamming Code, CRC, Parity Check, ARQ Techniques (Stop and wait Protocol), Go Back N Protocol, Selective Repeat Request, HDLC
-2. Map Demo Map Demo Options
+1. Error Detection & Correction Techniques, Hamming Code, CRC, Parity Check, ARQ Techniques (Stop and wait Protocol), Go Back N Protocol, Selective Repeat Request, HDLC<img src="./greenTick.PNG" alt="Smiley face" height="30" width="30">
+2. Map Demo Map Demo Options<img src="./greenTick.PNG" alt="Smiley face" height="30" width="30">
 
 ## 16-4-20
 1. TDM, FDM, CDMA, 
