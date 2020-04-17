@@ -53,15 +53,12 @@ OPEN Website
 2. Map Demo Map Demo Options<img src="./greenTick.PNG" alt="Smiley face" height="30" width="30">
 
 ## 16-4-20
-1. TDM, FDM, CDMA, 
-2. Properties Class Properties Class Options
-ArrayList Demo ArrayList Demo Options
+1. TDM, FDM, CDMA 
+2. Properties Class ArrayList Demo <img src="./greenTick.PNG" alt="Smiley face" height="30" width="30">
 
 ## 17-4-20
 1. ALOHA: Pure, Slotted ALOHA, CSMA, CSMA/CD,IEEE 802 standards for LAN & WAN: 802.3, 802.4, 802.5, 802.6, 802.2 and Their ComparisonNetwork Layer Service, Datagram and VC services, IP Datagram format and Types of Services, Datagram Encapsulation and Fragmentation, IP Addressing: Subnetting and Supernetting
-2. LinkedList Demonstration LinkedList Demonstration Options
-Use of Iterator Use of Iterator Options
-Use of Comparator Use of Comparator Options
+2. LinkedList Demonstration, Use of Iterator, Use of Comparator <img src="./greenTick.PNG" alt="Smiley face" height="30" width="30">
 
 ## 18-4-20
 1. Routing: Link State Routing, Distance Vector Routing, Hierarchical Routing, Multicast Routing,
