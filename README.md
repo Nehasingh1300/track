@@ -41,11 +41,9 @@ OPEN Website
 2. Quality Assurance 
 3. JDBC
 ## 13-4-20
-1. JDBC API, JDBC Statements SQL Queries, JDBC Drivers and API<img src="./redCross.PNG" alt="Smiley face" height="30" width="30">
-2. Twitter Bot <img src="./redCross.PNG" alt="Smiley face" height="30" width="30">
+1. Twitter Bot : Github Pages
 
 ## 14-4-20
-1. ISDN, Frame Relay,Fast Ethernet, Gigabit Ethernet, FDDI, TCP/IP Model <img src="./redCross.PNG" alt="Smiley face" height="30" width="30">
 2. Servlet Servlet Options <img src="./greenTick.PNG" alt="Smiley face" height="30" width="30">
 
 ## 15-4-20
@@ -57,12 +55,9 @@ OPEN Website
 2. Properties Class ArrayList Demo <img src="./greenTick.PNG" alt="Smiley face" height="30" width="30">
 
 ## 17-4-20
-1. ALOHA: Pure, Slotted ALOHA, CSMA, CSMA/CD,IEEE 802 standards for LAN & WAN: 802.3, 802.4, 802.5, 802.6, 802.2 and Their ComparisonNetwork Layer Service, Datagram and VC services, IP Datagram format and Types of Services, Datagram Encapsulation and Fragmentation, IP Addressing: Subnetting and Supernetting
-2. LinkedList Demonstration, Use of Iterator, Use of Comparator <img src="./greenTick.PNG" alt="Smiley face" height="30" width="30">
+1. LinkedList Demonstration, Use of Iterator, Use of Comparator <img src="./greenTick.PNG" alt="Smiley face" height="30" width="30">
 
 ## 18-4-20
-1. Routing: Link State Routing, Distance Vector Routing, Hierarchical Routing, Multicast Routing,
-2. Generic Class, Lecture Notes, How HashMap Works, HashMap and HashTable
 
 ## 19-4-20
 1. RIP,OSPF, BGP, IPv4: Frame Formats,Introduction to ICMP, DHCP, and NAT, IPv6: Frame Formats,
@@ -120,8 +115,11 @@ Demonstration of MultiThreading Demonstration of MultiThreading Options
 Multithreading in Java Multithreading in Java Options
 
 ## 29-4-20
-
+1. JDBC API, JDBC Statements SQL Queries, JDBC Drivers and API
+2. ALOHA: Pure, Slotted ALOHA, CSMA, CSMA/CD,IEEE 802 standards for LAN & WAN: 802.3, 802.4, 802.5, 802.6, 802.2 and Their ComparisonNetwork Layer Service, Datagram and VC services, IP Datagram format and Types of Services, Datagram Encapsulation and Fragmentation, IP Addressing: Subnetting and Supernetting
 
 ## 30-4-20
+1. ISDN, Frame Relay,Fast Ethernet, Gigabit Ethernet, FDDI, TCP/IP Model, Routing: Link State Routing, Distance Vector Routing, Hierarchical Routing, Multicast Routing,
+2. Lecture Notes, How HashMap Works, HashMap and HashTable
 
 
