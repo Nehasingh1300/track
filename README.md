@@ -5,7 +5,7 @@ Quality Assurance
 ```
 
 ```
-Blog <img src="./greenTick.PNG" alt="Smiley face" height="30" width="30">
+Blog 
 ```
 
 ```
@@ -62,10 +62,7 @@ OPEN Website
 
 ## 18-4-20
 1. Routing: Link State Routing, Distance Vector Routing, Hierarchical Routing, Multicast Routing,
-2. Generic Class Generic Class Options
-Lecture Notes Lecture Notes Options
-How HashMap Works How HashMap Works Options
-HashMap and HashTable HashMap and HashTable Options
+2. Generic Class, Lecture Notes, How HashMap Works, HashMap and HashTable
 
 ## 19-4-20
 1. RIP,OSPF, BGP, IPv4: Frame Formats,Introduction to ICMP, DHCP, and NAT, IPv6: Frame Formats,
