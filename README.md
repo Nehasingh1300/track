@@ -60,23 +60,13 @@ OPEN Website
 ## 18-4-20
 
 ## 19-4-20
-1. RIP,OSPF, BGP, IPv4: Frame Formats,Introduction to ICMP, DHCP, and NAT, IPv6: Frame Formats,
-2. Map Interface Map Interface Options
-Set Interface Set Interface Options
-Vector vs ArrayList Vector vs ArrayList Options
+1. datakitchen cookbook
 
 ## 20-4-20
-1. Network Management: SNMP and RMON models, Transport Layer Services, Relationship with network and application layer
-2. List Interface List Interface Options
-Collection Framework in java Collection Framework in java Options
-Collections Collections Options
-Generics in Java Generics in Java Options
+1. datakitchen video and working
 
 ## 21-4-20
-1. Multiplexing and De multiplexing, UDP, TCP: Header, Segment Structure, Services,
-2. LinkedList vs ArrayList LinkedList vs ArrayList Options
-Race Condition Race Condition Options
-Deadlock Deadlock Options
+1. Selenium WebDriver article
 
 ## 22-4-20
 1. Connection Establishment and Termination, Flow Control and Window Size Advertising,
@@ -121,5 +111,19 @@ Multithreading in Java Multithreading in Java Options
 ## 30-4-20
 1. ISDN, Frame Relay,Fast Ethernet, Gigabit Ethernet, FDDI, TCP/IP Model, Routing: Link State Routing, Distance Vector Routing, Hierarchical Routing, Multicast Routing,
 2. Lecture Notes, How HashMap Works, HashMap and HashTable
-
-
+21-----
+1. Multiplexing and De multiplexing, UDP, TCP: Header, Segment Structure, Services,
+2. LinkedList vs ArrayList LinkedList vs ArrayList Options
+Race Condition Race Condition Options
+Deadlock Deadlock Options
+20--------
+Network Management: SNMP and RMON models, Transport Layer Services, Relationship with network and application layer
+2. List Interface List Interface Options
+Collection Framework in java Collection Framework in java Options
+Collections Collections Options
+Generics in Java Generics in Java Options
+19-------
+RIP,OSPF, BGP, IPv4: Frame Formats,Introduction to ICMP, DHCP, and NAT, IPv6: Frame Formats,
+2. Map Interface Map Interface Options
+Set Interface Set Interface Options
+Vector vs ArrayList Vector vs ArrayList Options
