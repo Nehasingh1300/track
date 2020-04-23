@@ -56,11 +56,79 @@ Let's assume you have a single button element on a page. You can locate this but
 WebElement loginButton = driver.findElement(By.tagName("button"));
 loginButton.click();
 ```
+
 Take another example where we want to count how many rows are displayed in <table>.
-<br>We can do this in the following way:
+We can do this in the following way:  
   
 ```
 WebElement table = driver.findElement(By.id("summaryTable"));
 List<WebElement> rows = table.findElements(By.tagName("tr"));
 assertEquals(10, rows.size());
-  ```
+```
+### Finding elements using XPath
+XPath (the XML path language) is a query language used to select nodes from an XML
+document. <br>
+One of the important differences between XPath and CSS is that, with XPath, we can search
+elements backwards or forwards in the DOM hierarchy, while CSS works only in a forward
+direction. This means that using XPath we can locate a parent element using a child element
+and vice versa.<br><br>
+**Nodes** :HTML,id,title <br>
+**Atomic Values** :nodes with no children and parent <br>
+**Parent** <br>
+**Children**  <br>
+**Siblings** <br>
+**Ascendants**  <br>
+**Descendants**  <br><br>
+**Selecting Nodes**<br>
+**Nodename** :Select complete table <br>
+**/(slash)** :/html/body/div <br>
+**//(double slash)** ://img,//a,//table,//tr,//td <br>
+**.(dot)** :current node <br>
+**..(double dot)** :parent of the current node <br>
+**@** :attribute <br><br>
+## Finding elements using predicates
+
+In the previous example, the XPath query will return the first <input> element that it finds in the DOM. There could be multiple elements matching the specified XPath query. If the element is not the first element, we can also locate the element by using its index in theDOM. For example, in our login form, we can locate the Password field, which is the second <input> element on the page, in the following way:
+```
+WebElement userName = driver.findElement(By.xpath("//input[2]"));
+```
+
+Syntax                                  Example                                Description
+starts-with()                   input[starts-with(@id,'ctrl')]                  Starting with:For example, if the ID of an element is ctrl_12, this will find and return elements with ctrl at the beginning of the ID.
+ends-with()                     input[ends-with(@id,'_userName')]               Ending with:For example, if the ID of an element is a_1_userName, this will find and return elements with _userName at the end of the ID.
+contains()                      Input[contains(@id,'userName')]                 Containing:For example, if the ID for an element is panel_login_userName_ textfield, this will use the userName part in the middle to match and locate the element.
+
+Expression                                                                       Description
+/table/tr[1]                                                                    This will select the first tr (row) element that is the child of the table element.
+/table/tr[last()]                                                               This will select the last tr (row) element that is the child of the table element.
+/table/tr[last()-1]                                                             This will select the second last tr (row) element that is the child of the table element.
+/table/tr[position()>4]                                                         This will select the three tr (rows) elements that are child of the table element.
+//tr[td>40]                                                                     This will select all the tr (rows) elements that have one of their children td with value greater than 40.
+
+### Selecting unknown nodes
+Apart from selecting the specific nodes, XPath also provides wildcards to select a group of elements:<br>
+Wildcard                        Description                             Example
+*                               Matches any element node.               f /table/*: This will select all child elements of a table element ;f //*: This will select all elements in the document ;f //*[@class='price']: This will select any element in the document which has an attribute named class with a specified value, that is price 
+@                               Matches any attribute node.             f //td[@*]: This will select all the td elements that have any attribute 
+node()                          Matches any node of any kind.           f //table/node(): This will select all the child elements of table
+
+
+## Finding elements using CSS selectors
+```
+WebElement userName = driver.findElement(By.cssSelector("html body div div form input"));
+WebElement userName = driver.findElement(By.cssSelector("html > body > div > div > form > input"));
+WebElement userName = driver.findElement(By.cssSelector("input"));
+WebElement loginButton =  driver.findElement(By.cssSelector("input.login"));
+<input type="text" class="username textfield" />
+WebElement loginButton = driver.findElement(By.cssSelector("input.login.textfield"));
+WebElement loginButton =driver.findElement(By.cssSelector(".login"));
+```
+## Locating elements using text
+XPath provides the text() function, which can be used to see if an element contains the specified text in the following way:
+```WebElement cell = driver.findElement
+ (By.xpath("//td[contains(text(),'Item 1')]"));
+```
+We can also use a single period/dot, ".", instead of the text() function in following way:
+```WebElement cell = driver.findElement
+ (By.xpath("//td[contains(.,'Item 1')]"));```
+ 
