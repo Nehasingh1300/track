@@ -24,4 +24,43 @@ by name, by id, by class name, by tag name, by link text, by partial link text, 
   To locate the User Name and Password fields, we can use the id attribute in the following way:<br>
 WebElement username = driver.findElement(By.id("username"));<br>
 WebElement password = driver.findElement(By.id("password"));<br>
+<br>
+  
+## Finding elements using the findElementsmethod
+Selenium WebDriver provides the findElements() method, using which we can find more than one element matching the specified search criteria. This method is useful when we want to work with a group of similar elements. For example, we can get all the links displayed on a page, or get all rows from a table, and so on.<br>
+In this recipe, we will get all the links and print their targets by using the findElements() method.<br>
+<br>
+Let's create a test that will get all the links from a page, verify the count of links, and print a
+target for each link, as follows:
+```
+@Test
+public void testFindElements() {
+ //Get all the links displayed on Page
+ List<WebElement> links = driver.findElements(By.tagName("a"));
+ //Verify there are four links displayed on the page
+ assertEquals(4, links.size());
+ //Iterate though the list of links and print
+ //target for each link
+ for(WebElement link : links) {
+ System.out.println(link.getAttribute("href"));
+ }
+}
+  ```
+### Finding link 
+BY TEXT<br>
+BY Partial Text<br>
 
+### Tag Name
+Let's assume you have a single button element on a page. You can locate this button by using its tag in the following way:<br>
+```
+WebElement loginButton = driver.findElement(By.tagName("button"));
+loginButton.click();
+```
+Take another example where we want to count how many rows are displayed in <table>.
+<br>We can do this in the following way:
+  
+```
+WebElement table = driver.findElement(By.id("summaryTable"));
+List<WebElement> rows = table.findElements(By.tagName("tr"));
+assertEquals(10, rows.size());
+  ```
