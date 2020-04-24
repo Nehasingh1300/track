@@ -1,4 +1,5 @@
 // Setting up with Selenium WebDriver -> Check this video -> https://medium.com/learn-together/testing-with-selenium-webdriver-cc9af9196b79)
+// It had all absic things that you can learn from the above link
 package com.secookbook.examples.chapter1;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.WebDriver;
