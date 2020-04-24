@@ -91,3 +91,21 @@ Visible text
  assertEquals("BMW", make.getFirstSelectedOption().getText());
 }
 ```
+## Selecting and deselecting Elements
+```
+<select name="color" size="6" multiple="multiple"
+ style="width:100px">
+ <option value="bl">Black</option>
+ <option value="wt">White</option>
+ <option value="rd">Red</option>
+ <option value="br">Brown</option>
+ <option value="sl">Silver</option>
+</select>
+```
+Each option in this <select> element has a value property as well as a text label specified between <option> and </option>. We can select an option using this text label by calling the selectByVisibleText() method of the Select class, as shown in the following code:
+
+```color.selectByVisibleText("Black");```
+
+Similarly, you can deselect an already selected option by calling the deselectByVisibleText() method, as shown in the following code:
+
+```color.deselectByVisibleText("Black");```
