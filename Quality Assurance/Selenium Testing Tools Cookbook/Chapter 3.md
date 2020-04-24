@@ -104,8 +104,49 @@ Visible text
 ```
 Each option in this <select> element has a value property as well as a text label specified between <option> and </option>. We can select an option using this text label by calling the selectByVisibleText() method of the Select class, as shown in the following code:
 
-```color.selectByVisibleText("Black");```
-
+```
+color.selectByVisibleText("Black");
+```
+<br><br>
 Similarly, you can deselect an already selected option by calling the deselectByVisibleText() method, as shown in the following code:
-
-```color.deselectByVisibleText("Black");```
+<br><br>
+```
+color.deselectByVisibleText("Black");
+```
+## Deselecting Options
+```
+@Test
+public void testMultipleSelectList()
+{
+ ...
+ //Select multiple options in the list using visible text
+ color.selectByVisibleText("Black");
+ color.selectByVisibleText("Red");
+ color.selectByVisibleText("Silver");
+ //We will verify list has multiple options selected as listed
+ //in a array
+ List<String> expectedSelection = Arrays.asList
+ ("Black", "Red", "Silver");
+ List<String> actualSelection = new ArrayList<String>();
+ for(WebElement option : color.getAllSelectedOptions())
+ {actualSelection.add(option.getText()); }
+ //Verify expected array for selected options match with actual
+ //options selected
+ assertArrayEquals
+ (expectedSelection.toArray(),actualSelection.toArray());
+ //Verify there 3 options selected in the list
+ assertEquals(3,color.getAllSelectedOptions().size());
+ //Deselect an option using visible text
+ color.deselectByVisibleText("Silver");
+ //Verify selected options count
+ assertEquals(2,color.getAllSelectedOptions().size());
+ //Deselect an option using value attribute of the option
+ color.deselectByValue("rd");
+ //Verify selected options count
+ assertEquals(1,color.getAllSelectedOptions().size());
+ //Deselect an option using index of the option
+ color.deselectByIndex(0);
+ //Verify selected options count
+ assertEquals(0,color.getAllSelectedOptions().size());
+}
+```
