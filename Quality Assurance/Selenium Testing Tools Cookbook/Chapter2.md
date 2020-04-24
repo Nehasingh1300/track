@@ -92,26 +92,30 @@ In the previous example, the XPath query will return the first <input> element t
 ```
 WebElement userName = driver.findElement(By.xpath("//input[2]"));
 ```
-
+```
 Syntax                                  Example                                Description
 starts-with()                   input[starts-with(@id,'ctrl')]                  Starting with:For example, if the ID of an element is ctrl_12, this will find and return elements with ctrl at the beginning of the ID.
 ends-with()                     input[ends-with(@id,'_userName')]               Ending with:For example, if the ID of an element is a_1_userName, this will find and return elements with _userName at the end of the ID.
 contains()                      Input[contains(@id,'userName')]                 Containing:For example, if the ID for an element is panel_login_userName_ textfield, this will use the userName part in the middle to match and locate the element.
+```
 
+```
 Expression                                                                       Description
 /table/tr[1]                                                                    This will select the first tr (row) element that is the child of the table element.
 /table/tr[last()]                                                               This will select the last tr (row) element that is the child of the table element.
 /table/tr[last()-1]                                                             This will select the second last tr (row) element that is the child of the table element.
 /table/tr[position()>4]                                                         This will select the three tr (rows) elements that are child of the table element.
 //tr[td>40]                                                                     This will select all the tr (rows) elements that have one of their children td with value greater than 40.
+```
 
 ### Selecting unknown nodes
 Apart from selecting the specific nodes, XPath also provides wildcards to select a group of elements:<br>
+```
 Wildcard                        Description                             Example
-*                               Matches any element node.               f /table/*: This will select all child elements of a table element ;f //*: This will select all elements in the document ;f //*[@class='price']: This will select any element in the document which has an attribute named class with a specified value, that is price 
+\*                               Matches any element node.               f /table/*: This will select all child elements of a table element ;f //*: This will select all elements in the document ;f //*[@class='price']: This will select any element in the document which has an attribute named class with a specified value, that is price 
 @                               Matches any attribute node.             f //td[@*]: This will select all the td elements that have any attribute 
 node()                          Matches any node of any kind.           f //table/node(): This will select all the child elements of table
-
+```
 
 ## Finding elements using CSS selectors
 ```
