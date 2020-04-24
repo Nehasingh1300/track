@@ -10,11 +10,14 @@ The findElement() method returns an instance of a WebElement that is found in th
 The findElements() method returns a list of WebElements matching the search criteria, else return empty list.<br>
 <br>Child FindElement:<br>
 The WebElement interface also supports find methods that find child elements. For example,if there are some duplicate elements on a page but they are located in the separate <div>elements, we can first locate the parent <div> element and then locate the child element within the context of the <div> element in the following way:<br>
-  ```
+ 
+```
 WebElement div = driver.findElement(By.id("div1"));
 WebElement topLink = div.findElement(By.linkText("top"));
 ```
+  
 You can also a use a shortcut method in the following way:<br>
+  
   ```
 WebElement topLink = driver.findElement
  (By.id("div1")).findElement(By.linkText("top"));
