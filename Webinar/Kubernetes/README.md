@@ -24,3 +24,15 @@ Speaker : **Shekhar Gulati,CTO - XEBIA & Akshay Mathur Principal Consultant - XE
 <img src="18.jpeg" /><br>
 <img src="19.jpeg" /><br>
 <img src="20.jpeg" /><br>
+<img src="21.jpeg" /><br>
+<img src="22.jpeg" /><br>
+<img src="23.jpeg" /><br>
+<img src="24.jpeg" /><br>
+<img src="25.jpeg" /><br>
+<img src="26.jpeg" /><br>
+<img src="27.jpeg" /><br>
+<img src="28.jpeg" /><br>
+<img src="29.jpeg" /><br>
+<img src="30.jpeg" /><br>
+<img src="31.jpeg" /><br>
+<img src="32.jpeg" /><br>
