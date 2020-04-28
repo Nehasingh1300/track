@@ -2,7 +2,9 @@
 Speaker : **Shekhar Gulati,CTO - XEBIA & Akshay Mathur Principal Consultant - XEBIA**
 ## LEAN ON LEARNING
 28 April,2020
-
+[Shekhar Gulati - linkedin ](https://www.linkedin.com/in/shekhar-gulati-830a055/)<br>
+[Shekhar Gulati - Twitter n](https://twitter.com/shekhargulati?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)<br><br>
+[Akshay Mathur - Linkedln ](https://www.linkedin.com/in/akshmathur/)<br>
 ## Webinar SS
 <img src="1.jpeg" /><br>
 <img src="2.jpeg" /><br>
